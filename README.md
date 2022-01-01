@@ -19,6 +19,6 @@ After Build the Database You need only to run the Adminstrator-Main.py which has
 
 
 Modules Required For Run System :
-(1) tkinter
-(2) PIL
-(3) mysql.connector
+- tkinter
+- PIL
+- mysql.connector
