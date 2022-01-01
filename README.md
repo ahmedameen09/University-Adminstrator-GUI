@@ -12,7 +12,8 @@ this system is GUI Adminstrator system designed for universty adminstrator to ma
 - Add results
 
 
-this system requires to build its MySQL Database which exist in this respirotry : https://github.com/ahmedameen09/University-Database
+this system requires to build its MySQL Database which exist in this respirotry : https://github.com/ahmedameen09/University-Database.
+
 After Build the Database You need only to run the Adminstrator-Main.py which has Sql-Connector.py as his module to connect with Database.
 
 
