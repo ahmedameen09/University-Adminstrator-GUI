@@ -29,7 +29,7 @@ def login():
 def click0():
     top1 = Toplevel()
     top1.title("Students Accounts DB")
-    top1.iconbitmap(r'C:\Users\14b007\Desktop\MRU Database Project\Logo Design\iconem.ico')
+    top1.iconbitmap(r'Logo Design\iconem.ico')
     top1.option_add("*tearOff", False)  # for remove dashed line from ui\ux
     top1.geometry("1100x550")
     top1.resizable(False, FALSE)
@@ -96,7 +96,7 @@ def click0():
 def click1():
     top1 = Toplevel()
     top1.title("Students Accounts DB")
-    top1.iconbitmap(r'C:\Users\14b007\Desktop\MRU Database Project\Logo Design\iconem.ico')
+    top1.iconbitmap(r'Logo Design\iconem.ico')
     top1.option_add("*tearOff", False)  # for remove dashed line from ui\ux
     top1.geometry("1100x550")
     top1.resizable(False, FALSE)
@@ -172,7 +172,7 @@ def click1():
 def click2():
     top1 = Toplevel()
     top1.title("Students Accounts DB")
-    top1.iconbitmap(r'C:\Users\14b007\Desktop\MRU Database Project\Logo Design\iconem.ico')
+    top1.iconbitmap(r'Logo Design\iconem.ico')
     top1.option_add("*tearOff", False)  # for remove dashed line from ui\ux
     top1.geometry("1100x550")
     top1.resizable(False, FALSE)
@@ -208,7 +208,7 @@ def click2():
 def click4():
     top1 = Toplevel()
     top1.title("Students Accounts DB")
-    top1.iconbitmap(r'C:\Users\14b007\Desktop\MRU Database Project\Logo Design\iconem.ico')
+    top1.iconbitmap(r'Logo Design\iconem.ico')
     top1.option_add("*tearOff", False)  # for remove dashed line from ui\ux
     top1.geometry("1100x550")
     top1.resizable(False, FALSE)
@@ -299,7 +299,7 @@ def click4():
 
 loginW = Tk()
 loginW.title("MRU Administrator System")
-loginW.iconbitmap(r'C:\Users\14b007\Desktop\MRU Database Project\Logo Design\iconem.ico')
+loginW.iconbitmap(r'Logo Design\iconem.ico')
 loginW.option_add("*tearOff", False)                            # for remove dashed line from ui\ux
 loginW.geometry("1000x650")                                     # for default size of window
 loginW.resizable(False, FALSE)                                  # for resizing of window
@@ -317,11 +317,11 @@ loginframe.grid(row=0, column=1, padx=0, pady=(50,10), sticky="nsew", rowspan=3)
 loginframe.columnconfigure(index=0, weight=1)
 
 # setting the theme
-loginW.call("source", r"C:\Users\14b007\Desktop\MRU Database Project\Azure-ttk-theme-main\azure.tcl")
+loginW.call("source", r"Azure-ttk-theme-main\azure.tcl")
 loginW.call("set_theme", "dark")
 
 # setting Logo
-logo = Image.open(r"C:\Users\14b007\Desktop\MRU Database Project\Logo Design\Removal-547.png")  # open image
+logo = Image.open(r"Logo Design\Removal-547.png")  # open image
 r_logo = logo.resize((150,139), Image.ANTIALIAS)               # resizing image
 F_logo = ImageTk.PhotoImage(r_logo)                            # make image photo
 logolbl = Label(image=F_logo)                                  # make image as label
@@ -354,7 +354,7 @@ loginW.mainloop()
 if flag == 1 :
     mainW = Tk()
     mainW.title("MISR University Adminstrator System")
-    mainW.iconbitmap(r'C:\Users\14b007\Desktop\MRU Database Project\Logo Design\iconem.ico')
+    mainW.iconbitmap(r'Logo Design\iconem.ico')
     mainW.option_add("*tearOff", False)
     mainW.geometry("1200x650")
     mainW.resizable(True, True)
@@ -371,7 +371,7 @@ if flag == 1 :
     style = ttk.Style(mainW)
 
     # setting the theme
-    mainW.call("source", r"C:\Users\14b007\Desktop\MRU Database Project\Azure-ttk-theme-main\azure.tcl")
+    mainW.call("source", r"Azure-ttk-theme-main\azure.tcl")
     mainW.call("set_theme", "dark")
 
     # Frames
@@ -404,7 +404,7 @@ if flag == 1 :
 
     # Frame_0 Widgets setting
 
-    img0 = Image.open(r"C:\Users\14b007\Desktop\MRU Database Project\Pngs\7303401-removebg-preview.png")
+    img0 = Image.open(r"Pngs\7303401-removebg-preview.png")
     r_img0 = img0.resize((160,160), Image.ANTIALIAS)
     F_img0 = ImageTk.PhotoImage(r_img0)
     img0_lbl = Label(frame_0,image=F_img0)
@@ -414,7 +414,7 @@ if flag == 1 :
 
     # Frame_1 Widgets setting
 
-    img1 = Image.open(r"C:\Users\14b007\Desktop\MRU Database Project\Pngs\pngfind.com-admin-icon-png-5286002.png")
+    img1 = Image.open(r"Pngs\pngfind.com-admin-icon-png-5286002.png")
     r_img1 = img1.resize((160,160), Image.ANTIALIAS)
     F_img1 = ImageTk.PhotoImage(r_img1)
     img1_lbl = Label(frame_1,image=F_img1)
@@ -424,7 +424,7 @@ if flag == 1 :
 
     # Frame_2 Widgets setting
 
-    img2 = Image.open(r"C:\Users\14b007\Desktop\MRU Database Project\Pngs\professor.png")
+    img2 = Image.open(r"Pngs\professor.png")
     r_img2 = img2.resize((160,160), Image.ANTIALIAS)
     F_img2 = ImageTk.PhotoImage(r_img2)
     img2_lbl = Label(frame_2,image=F_img2)
@@ -434,7 +434,7 @@ if flag == 1 :
 
     # Frame_3 Widgets setting
 
-    img3 = Image.open(r"C:\Users\14b007\Desktop\MRU Database Project\Pngs\Student-Dtabase.png")
+    img3 = Image.open(r"Pngs\Student-Dtabase.png")
     r_img3 = img3.resize((160,160), Image.ANTIALIAS)
     F_img3 = ImageTk.PhotoImage(r_img3)
     img3_lbl = Label(frame_3,image=F_img3)
@@ -444,7 +444,7 @@ if flag == 1 :
 
     # Frame_4 Widgets setting
 
-    img4 = Image.open(r"C:\Users\14b007\Desktop\MRU Database Project\Pngs\Announcment.png")
+    img4 = Image.open(r"Pngs\Announcment.png")
     r_img4 = img4.resize((160,160), Image.ANTIALIAS)
     F_img4 = ImageTk.PhotoImage(r_img4)
     img4_lbl = Label(frame_4,image=F_img4)
@@ -454,7 +454,7 @@ if flag == 1 :
 
     # Frame_5 Widgets setting
 
-    img5 = Image.open(r"C:\Users\14b007\Desktop\MRU Database Project\Pngs\Registration.png")
+    img5 = Image.open(r"Pngs\Registration.png")
     r_img5 = img5.resize((160,160), Image.ANTIALIAS)
     F_img5 = ImageTk.PhotoImage(r_img5)
     img5_lbl = Label(frame_5,image=F_img5)
@@ -464,7 +464,7 @@ if flag == 1 :
 
     # Frame_6 Widgets setting
 
-    img6 = Image.open(r"C:\Users\14b007\Desktop\MRU Database Project\Pngs\others-icon-20.jpg")
+    img6 = Image.open(r"Pngs\others-icon-20.jpg")
     r_img6 = img6.resize((160,160), Image.ANTIALIAS)
     F_img6 = ImageTk.PhotoImage(r_img6)
     img6_lbl = Label(frame_6,image=F_img6)
@@ -474,7 +474,7 @@ if flag == 1 :
 
     # Frame_7 Widgets setting
 
-    img7 = Image.open(r"C:\Users\14b007\Desktop\MRU Database Project\Pngs\kindpng_211349.png")
+    img7 = Image.open(r"Pngs\kindpng_211349.png")
     r_img7 = img7.resize((160,160), Image.ANTIALIAS)
     F_img7 = ImageTk.PhotoImage(r_img7)
     img7_lbl = Label(frame_7,image=F_img7)
